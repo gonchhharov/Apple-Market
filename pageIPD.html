@@ -2,74 +2,7 @@
 <html>
     <head>
         <title>Apple Market | iPad</title>
-        <style>
-            body {
-                background-color: #cccccc;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                margin: 0;
-                padding: 0;
-            }
-
-            .navbar {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                background-color: #333;
-                padding: 15px 20px;
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                z-index: 1000;
-            }
-
-            .logo {
-                color: white;
-                font-size: 1.5em;
-                font-weight: bold;
-            }
-
-            .menu {
-                list-style: none;
-                display: flex;
-                margin: 0;
-                padding: 0;
-            }
-
-            .menu li {
-                margin: 0 15px;
-            }
-
-            .menu a {
-                color: white;
-                text-decoration: none;
-                font-size: 1.2em;
-            } 
-
-            .cart {
-                margin-right: 100px;
-            }
-
-            .cart a {
-                color: white;
-                font-size: 1.2em;
-                text-decoration: none;
-            }
-
-            .menu a:hover, .cart a:hover {
-                color: #a3a3a3;
-            }
-
-            .banner img {
-                width: 100%;
-                height: auto;
-                display: block;
-            }
-
-            body {
-                padding-top: 60px;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
@@ -90,6 +23,40 @@
                 </div>
             </nav>
         </header>
-
+        <section class="all-product">
+            <button>iPad</button>
+            <button>iPad Air</button>
+            <button>iPad Pro</button>
+            <button>iPad mini</button>
+        </section>
+        <section class="popular-products">
+            <h2>Популярные iPad</h2>
+            <section class="products">
+                <div class="product">
+                    <img src="ipd/ipd10_2022_Silver.png" alt="iPad 10-е поколение (2022) Wi-Fi 64GB Silver">
+                    <p>iPad 10-е поколение (2022) Wi-Fi 64GB Silver</p>
+                    <span>Цена: 30 990 руб.</span>
+                    <button>Подробнее</button>
+                    <button>В корзину</button>
+                    <button>Купить</button>
+                </div>
+                <div class="product">
+                    <img src="ipd/ipdPro11_2024_Silver.png" alt="iPad 10-е поколение (2022) Wi-Fi 64GB Silver">
+                    <p>iPad Pro 11" 2024 Wi-Fi 256GB Silver</p>
+                    <span>Цена: 85 990 руб.</span>
+                    <button>Подробнее</button>
+                    <button>В корзину</button>
+                    <button>Купить</button>
+                </div>
+                <div class="product">
+                    <img src="ipd/ipd_air_11_2024_Space_Gray.png" alt="iPad Air 11 2024 Space Gray">
+                    <p>iPad Air 11" 2024 128GB Wi-Fi Space Gray</p>
+                    <span>Цена: 50 990 руб.</span>
+                    <button>Подробнее</button>
+                    <button>В корзину</button>
+                    <button>Купить</button>
+                </div>
+            </section>
+        </section>
     </body>
 </html>
