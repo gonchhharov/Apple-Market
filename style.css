@@ -185,3 +185,8 @@
             body {
                 padding-top: 60px;
             }
+/* Bootstrap alert-success override */
+.alert-success {
+    background-color: #d1e7dd !important;
+    color: #0f5132 !important;
+}
